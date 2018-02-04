@@ -4,19 +4,22 @@ import { CommonModule } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   imports: [
     CommonModule,
     MatToolbarModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatChipsModule
   ],
   declarations: [],
   exports: [
     MatToolbarModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatChipsModule
   ]
 })
 export class MaterialModule { }

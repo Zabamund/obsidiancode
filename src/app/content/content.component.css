@@ -4,14 +4,24 @@
 
 .project-card {
     width: 400px;
+    margin: 15px
   }
 
 .title {
-    background-color: white
+    background-color: lightgray
 }
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: gold
+    background-color: white
   }
+
+mat-chip {
+    max-width: 200px;
+  }
+
+.chip {
+    color: white;
+    background-color: rgb(35, 8, 190)
+}
