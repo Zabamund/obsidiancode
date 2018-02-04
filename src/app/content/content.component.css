@@ -2,6 +2,12 @@
     width: "100%"
 }
 
+#intro {
+    font-size: 1em;
+    color: black;
+    text-align: center
+}
+
 .project-card {
     width: 400px;
     margin: 15px
@@ -17,8 +23,13 @@
     background-color: white
   }
 
+.tags {
+    display: flex;
+    justify-content: center
+  }
+
 mat-chip {
-    max-width: 200px;
+    max-width: 200px
   }
 
 .chip {
