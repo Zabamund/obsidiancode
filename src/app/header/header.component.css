@@ -5,3 +5,8 @@
 .spacer {
     flex: 1 1 auto;
   }
+
+.title-bar {
+    background-color: black;
+    height: 75px;
+  }
