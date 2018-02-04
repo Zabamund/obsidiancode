@@ -5,16 +5,19 @@
 #intro {
     font-size: 1em;
     color: black;
-    text-align: center
+    text-align: center;
+    font-family: Courier, Helvetica, Arial, sans-serif
 }
 
 .project-card {
     width: 400px;
-    margin: 15px
+    margin: 15px;
+    font-family: Courier, Helvetica, Arial, sans-serif
   }
 
 .title {
-    background-color: lightgray
+    background-color: lightgray;
+    font-family: Courier, Helvetica, Arial, sans-serif
 }
 .container {
     display: flex;
@@ -25,7 +28,8 @@
 
 .tags {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    font-family: Courier, Helvetica, Arial, sans-serif
   }
 
 mat-chip {
