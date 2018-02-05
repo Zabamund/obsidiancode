@@ -1,6 +1,9 @@
 <mat-toolbar class="title-bar">
+
   <img src="../../assets/logo/Asset2.png" alt="obsidiancode.io" height="100%" width="auto">
+
   <span class="spacer"></span>
+  
   <a href="https://www.linkedin.com/in/robertleckenby/" style="color:#9297A0;">
     <img src="../../assets/EntypoSE/linkedin-white.svg" alt="linkedin" height="20em" class="icon"></a>
   <a href="https://github.com/Zabamund" style="color:#9297A0;">
@@ -9,4 +12,24 @@
     <img src="../../assets/EntypoSE/twitter-white.svg" alt="twitter" height="20em" class="icon"></a>
   <a href="https://medium.com/@obsidiancode" style="color:#9297A0;">
     <img src="../../assets/EntypoSE/medium-white.svg" alt="medium" height="20em" class="icon"></a>
+
+  <button mat-mini-fab [matMenuTriggerFor]="menu" class="language-selector">
+    <img src="../../assets/Entypo/globe-white.svg" alt="language" height="20em" style="color:#9297A0;">
+  </button>
+
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <a class="dropdown-item" (click)="switchLanguage('en')">English (default)</a>
+    </button>
+    <button mat-menu-item>
+      <a class="dropdown-item" (click)="switchLanguage('fr')">Français</a>
+    </button>
+    <button mat-menu-item>
+      <a class="dropdown-item" (click)="switchLanguage('de')">Deutsch</a>
+    </button>
+    <button mat-menu-item>
+      <a class="dropdown-item" (click)="switchLanguage('it')">Italiano</a>
+    </button>
+  </mat-menu>
+  
 </mat-toolbar>
