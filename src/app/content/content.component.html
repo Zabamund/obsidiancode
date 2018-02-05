@@ -1,7 +1,11 @@
 <mat-card class="title-card">
   <mat-card-content>
     <p id="intro">
-      <b>obsidiancode.io</b> is where I publish my forays into the coding world including <b>web design</b> and <b>data science</b><br>
+      <b>{{ 'content.intro1' | translate }}</b>
+      {{ 'content.intro2' | translate }}
+      <b>{{ 'content.intro3' | translate }}</b>
+      {{ 'content.intro4' | translate }}
+      <b>{{ 'content.intro5' | translate }}</b>
     </p>
 
     <mat-chip-list class="tags">
@@ -13,13 +17,14 @@
       <mat-chip class="chip">Jupyter Notebooks</mat-chip>
       <mat-chip class="chip">SQL</mat-chip>
       <mat-chip class="chip">surge</mat-chip>
+      <mat-chip class="chip">ngx-translate</mat-chip>
     </mat-chip-list>
  
   </mat-card-content>
 </mat-card>
 
 <mat-toolbar class="title">
-    <h1>Example Web Projects</h1>
+    <h1>{{ 'content.title1' | translate }}</h1>
 </mat-toolbar>
 
 <div class="container">
@@ -30,13 +35,13 @@
     </a>
     <mat-card-content>
       <p>
-        geoLearnBot Acknowledges, Credits and Thanks:<br>
+          {{ 'content.telegram1' | translate }}<br>
         <a href="https://mineralseducationcoalition.org">The Minerals Education Coalition (MEC)</a><br>
         <a href="https://en.wikipedia.org/wiki/">Wikipedia</a><br>
         <a href="https://mapageka21.github.io/">Manel Pavon</a><br>
         <a href="https://github.com/IonicaBizau/scrape-it">Ionica Bizau</a><br>
         <a href="https://github.com/rubenlagus/TelegramBots">Ruben Bermudez</a><br>
-        For original data and source code provided under the <a href="https://opensource.org/licenses/MIT">MIT Licence</a><br>
+        {{ 'content.telegram2' | translate }} <a href="https://opensource.org/licenses/MIT">MIT Licence</a><br>
       </p>
     </mat-card-content>
   </mat-card>
@@ -47,7 +52,7 @@
     </a>
     <mat-card-content>
       <p>
-        A simple website created with Angular for some bee and honey enthusiasts 
+          {{ 'content.letitbee1' | translate }} 
       </p>
     </mat-card-content>
   </mat-card>
@@ -59,7 +64,7 @@
     </a>
     <mat-card-content>
       <p>
-        A simple website designed simply to implement some standard technology and libraries
+          {{ 'content.photo_gallery1' | translate }}
       </p>
     </mat-card-content>
   </mat-card>
@@ -67,7 +72,7 @@
 </div>
 
 <mat-toolbar class="title">
-    <h1>Example Data Science Projects</h1>
+    <h1>{{ 'content.title2' | translate }}</h1>
   </mat-toolbar> 
 
 <div class="container">
@@ -78,7 +83,7 @@
       </a>
         <mat-card-content>
           <p>
-            My weather analysis report as part of the <a href="https://eu.udacity.com/course/data-analyst-nanodegree--nd002">Udacity Data Analyst Nanodegree</a>
+              {{ 'content.dataScience1' | translate }} <a href="https://eu.udacity.com/course/data-analyst-nanodegree--nd002">Udacity Data Analyst Nanodegree</a>
           </p>
         </mat-card-content>
       </mat-card>
@@ -90,7 +95,7 @@
         </a>
         <mat-card-content>
           <p>
-            My no-show analysis report as part of the <a href="https://eu.udacity.com/course/data-analyst-nanodegree--nd002">Udacity Data Analyst Nanodegree</a>
+              {{ 'content.dataScience2' | translate }} <a href="https://eu.udacity.com/course/data-analyst-nanodegree--nd002">Udacity Data Analyst Nanodegree</a>
           </p>
         </mat-card-content>
       </mat-card>
