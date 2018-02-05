@@ -1,0 +1,17 @@
+{
+    "content": {
+        "intro1": "obsidiancode.io ",
+        "intro2": "ist der Ort, an dem ich meine Ausflüge in die Programmierwelt veröffentliche, einschließlich ",
+        "intro3": "Webdesign ",
+        "intro4": "und ",
+        "intro5": "Data Science",
+        "title1": "Beispiel Webprojekte",
+        "telegram1": "geoLearnBot bedankt:",
+        "telegram2": "Für Originaldaten und den Quellcode, unter dem",
+        "letitbee1": "Eine einfache Website die für einige Bienen und Honig-Enthusiasten mit Angular gebaut wurde",
+        "photo_gallery1": "Eine einfache Website, die nur dazu gedacht ist, einige Standardtechnologien und Bibliotheken zu implementieren",
+        "title2": "Beispiel Data Science Projekte",
+        "dataScience1": "Mein Wetteranalysebericht als Teil des",
+        "dataScience2": "Mein No-Show-Analysebericht als Teil des" 
+    }
+}
