@@ -9,4 +9,9 @@
 .title-bar {
     background-color: black;
     height: 75px;
+    flex-wrap: wrap
+  }
+
+.language-selector {
+  background-color: black
   }
