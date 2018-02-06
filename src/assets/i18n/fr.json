@@ -1,13 +1,17 @@
 {
     "content": {
-        "intro": "obsidiancode.io est l'endroit où je publie mes incursions dans le monde du codage, y compris la conception web et la science des données",
+        "intro1": "obsidiancode.io ",
+        "intro2": "est l'endroit où je publie mes incursions dans le monde de la programmation, y compris le ",
+        "intro3": "web design ",
+        "intro4": "et les  ",
+        "intro5": "data sciences",
         "title1": "Exemples de projets Web",
-        "telegram1": "remerciements, crédits et remerciements de geoLearnBot:",
-        "telegram2": "Pour les données d'origine et le code source fourni sous le",
+        "telegram1": "geoLearnBot remercie:",
+        "telegram2": "Pour les données d'origine et le code source fourni sous la ",
         "letitbee1": "Un simple site créé avec Angular pour des amateurs de miel et d'abeilles",
-        "photo_gallery1": "Un simple site web conçu simplement pour implémenter certaines technologies et bibliothèques standard",
-        "title2": "Exemples de projets de science des données",
-        "dataScience1": "Mon rapport d'analyse météo dans le cadre du",
-        "dataScience2": "Mon rapport d'analyse de non-présentation dans le cadre du" 
+        "photo_gallery1": "Un site web conçu simplement pour implémenter certaines technologies et bibliothèques standard",
+        "title2": "Exemples de projets de Data Sciences",
+        "dataScience1": "Mon rapport d'analyse météo dans le cadre du ",
+        "dataScience2": "Mon rapport d'analyse des patients 'no-show' dans le cadre du " 
     }
 }
