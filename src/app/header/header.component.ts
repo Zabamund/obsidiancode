@@ -4,7 +4,10 @@ import { TranslationService } from '../shared';
 @Component({
   selector: 'ocio-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: [
+    './header.component.css',
+    '../../../node_modules/flag-icon-css/css/flag-icon.css'
+    ]
 })
 export class HeaderComponent {
 
