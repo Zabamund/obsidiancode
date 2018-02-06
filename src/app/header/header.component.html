@@ -19,19 +19,19 @@
 
   <mat-menu #menu="matMenu">
     <button mat-menu-item>
-      <span class="flag-icon flag-icon-gb"></span>
+      <span class="flag-icon flag-icon-gb" (click)="switchLanguage('en')"></span>
       <a class="dropdown-item" (click)="switchLanguage('en')">English</a>
     </button>
     <button mat-menu-item>
-        <span class="flag-icon flag-icon-fr"></span>
+        <span class="flag-icon flag-icon-fr" (click)="switchLanguage('fr')"></span>
       <a class="dropdown-item" (click)="switchLanguage('fr')">Français</a>
     </button>
     <button mat-menu-item>
-        <span class="flag-icon flag-icon-de"></span>
+        <span class="flag-icon flag-icon-de" (click)="switchLanguage('de')"></span>
       <a class="dropdown-item" (click)="switchLanguage('de')">Deutsch</a>
     </button>
     <button mat-menu-item>
-        <span class="flag-icon flag-icon-it"></span>
+        <span class="flag-icon flag-icon-it" (click)="switchLanguage('it')"></span>
       <a class="dropdown-item" (click)="switchLanguage('it')">Italiano</a>
     </button>
   </mat-menu>
