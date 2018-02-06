@@ -40,3 +40,9 @@ mat-chip {
     color: white;
     background-color: rgb(35, 8, 190)
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75em
+}
