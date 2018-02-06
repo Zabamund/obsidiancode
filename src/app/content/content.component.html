@@ -20,7 +20,7 @@
       <mat-chip class="chip">ngx-translate</mat-chip>
       <mat-chip class="chip">flag-icon-css</mat-chip>
     </mat-chip-list>
- 
+
   </mat-card-content>
 </mat-card>
 
@@ -29,7 +29,6 @@
 </mat-toolbar>
 
 <div class="container">
-
   <mat-card class="project-card">
     <a href="https://telegram.me/geoLearnBot">
       <img mat-card-image src="../../assets/telegram.png" alt="telegram GeoLearnBot">
@@ -53,52 +52,51 @@
     </a>
     <mat-card-content>
       <p>
-          {{ 'content.letitbee1' | translate }} 
+        {{ 'content.letitbee1' | translate }} 
       </p>
     </mat-card-content>
   </mat-card>
     
-  <mat-card class="project-card">
-      
+  <mat-card class="project-card">  
     <a href="http://obsidiancode-photo-gallery.surge.sh/">
       <img mat-card-image src="../../assets/picgallery.png" alt="picgallery">
     </a>
     <mat-card-content>
       <p>
-          {{ 'content.photo_gallery1' | translate }}
+        {{ 'content.photo_gallery1' | translate }}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<mat-toolbar class="title">
+  <h1>{{ 'content.title2' | translate }}</h1>
+</mat-toolbar> 
+
+<div class="container">
+  <mat-card class="project-card">
+    <a href="https://github.com/Zabamund/datasci-nano/tree/master/weather-trends">
+      <img mat-card-image src="../../assets/weather.png" alt="weather analysis">
+    </a>
+    <mat-card-content>
+      <p>
+        {{ 'content.dataScience1' | translate }} <a href="https://eu.udacity.com/course/data-analyst-nanodegree--nd002">Udacity Data Analyst Nanodegree</a>
+      </p>
+    </mat-card-content>
+  </mat-card>
+    
+  <mat-card class="project-card">
+    <a href="https://github.com/Zabamund/datasci-nano/tree/master/inv-dataset">
+      <img mat-card-image src="../../assets/brazil.png" alt="brazil no shows analysis">
+    </a>
+    <mat-card-content>
+      <p>
+        {{ 'content.dataScience2' | translate }} <a href="https://eu.udacity.com/course/data-analyst-nanodegree--nd002">Udacity Data Analyst Nanodegree</a>
       </p>
     </mat-card-content>
   </mat-card>
 
-</div>
-
-<mat-toolbar class="title">
-    <h1>{{ 'content.title2' | translate }}</h1>
-  </mat-toolbar> 
-
-<div class="container">
-
-    <mat-card class="project-card">
-      <a href="https://github.com/Zabamund/datasci-nano/tree/master/weather-trends">
-        <img mat-card-image src="../../assets/weather.png" alt="weather analysis">
-      </a>
-        <mat-card-content>
-          <p>
-              {{ 'content.dataScience1' | translate }} <a href="https://eu.udacity.com/course/data-analyst-nanodegree--nd002">Udacity Data Analyst Nanodegree</a>
-          </p>
-        </mat-card-content>
-      </mat-card>
-    
-      <mat-card class="project-card">
-        <a href="https://github.com/Zabamund/datasci-nano/tree/master/inv-dataset">
-          <img mat-card-image src="../../assets/brazil.png" alt="brazil no shows analysis">
-
-        </a>
-        <mat-card-content>
-          <p>
-              {{ 'content.dataScience2' | translate }} <a href="https://eu.udacity.com/course/data-analyst-nanodegree--nd002">Udacity Data Analyst Nanodegree</a>
-          </p>
-        </mat-card-content>
-      </mat-card>
-
+  <mat-toolbar class="footer">
+    <p>{{ 'content.chrome' | translate }}</p>
+  </mat-toolbar>
 </div>
