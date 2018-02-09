@@ -15,6 +15,7 @@ import { HeaderComponent } from './header';
 import { ContentComponent } from './content';
 
 import { TranslationService } from './shared';
+import { FooterComponent } from './footer/footer.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -25,7 +26,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HeaderComponent,
-    ContentComponent
+    ContentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
