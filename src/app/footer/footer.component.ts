@@ -12,7 +12,7 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
-  async addTrustMark() {
+  addTrustMark() {
     try {
       const v = document.createElement('script');
       v.setAttribute('type', 'text/javascript');
