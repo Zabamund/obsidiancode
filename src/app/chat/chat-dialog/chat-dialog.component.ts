@@ -11,7 +11,7 @@ import 'rxjs/add/operator/scan';
 export class ChatDialogComponent implements OnInit {
 
   messages: Observable<Message[]>;
-  fromValue: string;
+  formValue: string;
 
   constructor(public chat: ChatService) { }
 
@@ -22,8 +22,8 @@ export class ChatDialogComponent implements OnInit {
   }
 
   sendMessage() {
-    this.chat.converse(this.fromValue);
-    this.fromValue = '';
+    this.chat.converse(this.formValue);
+    this.formValue = '';
   }
 
 }
