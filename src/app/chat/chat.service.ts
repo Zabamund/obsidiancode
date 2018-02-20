@@ -5,7 +5,6 @@ import { ApiAiClient } from 'api-ai-javascript';
 
 import { Observable } from 'rxjs/Observable';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
-import { constants } from 'os';
 
 export class Message {
   constructor(
