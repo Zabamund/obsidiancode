@@ -4,5 +4,9 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  dialogflow: {
+    ObsidianBot: '42e6486d429a4a6fa73a98c5352c14cc'
+  }
 };
