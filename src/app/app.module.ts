@@ -17,6 +17,8 @@ import { ContentComponent } from './content';
 import { TranslationService } from './shared';
 import { FooterComponent } from './footer/footer.component';
 
+import { ChatModule } from './chat/chat.module';
+
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -42,6 +44,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     }),
     HttpClientModule,
+    ChatModule
   ],
   providers: [
     TranslationService
