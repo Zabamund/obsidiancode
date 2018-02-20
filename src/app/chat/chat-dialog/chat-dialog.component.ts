@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ChatService, Message } from '../chat.service';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/scan';
 
 @Component({
   selector: 'ocio-chat-dialog',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChatDialogComponent implements OnInit {
 
-  constructor() { }
+  messages: Observable<Message[]>;
+  fromValue: string;
+
+  constructor(public chat: ChatService) { }
 
   ngOnInit() {
+    // appends to array after each new mesage is added to feedSource
+    this.messages = this.chat.conversation.asObservable()
+        .scan((acc, val) => acc.concat(val));
+  }
+
+  sendMessage() {
+    this.chat.converse(this.fromValue);
+    this.fromValue = '';
   }
 
 }
