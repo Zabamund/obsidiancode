@@ -40,3 +40,8 @@ mat-chip {
     color: white;
     background-color: rgb(35, 8, 190)
 }
+
+.example-header-image {
+    background-image: url('../../assets/logo/favicons/favicon.png');
+    background-size: cover;
+}
