@@ -48,5 +48,6 @@ mat-chip {
 
 .chatbot {
     max-height: 666px;
-    overflow: scroll
+    overflow: scroll;
+    background-color: #e4e5e6;
 }
