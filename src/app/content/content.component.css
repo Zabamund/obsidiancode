@@ -45,3 +45,8 @@ mat-chip {
     background-image: url('../../assets/logo/favicons/favicon.png');
     background-size: cover;
 }
+
+.chatbot {
+    max-height: 666px;
+    overflow: scroll
+}
