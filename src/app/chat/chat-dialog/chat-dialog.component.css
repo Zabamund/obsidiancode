@@ -1,21 +1,19 @@
 .message {
-    border-radius: 50px;
-    margin: 0 15px 10px;
-    padding: 15px 20px;
+    border-radius: 15px;
+    margin: 0 0px 5px;
+    padding: 10px 10px;
     position: relative;
-    font-weight: bold;
 }
 .message.to {
-    background-color: #2095FE;
-    color: #fff;
+    background-color: #CBCCCE;
+    color: #1B75BC;
     margin-left: 100px;
     text-align: right;
 }
 .message.from {
-    background-color: #E5E4E9;
-    color: #363636;
+    background-color: black;
+    color: #1B75BC;
     margin-right: 100px;
-
 }
 .message.to + .message.to,
 .message.from + .message.from {
